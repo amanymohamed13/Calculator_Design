@@ -8,21 +8,26 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/first_child"
         android:layout_width="match_parent"
         android:layout_height="290dp"
         android:orientation="vertical"
         tools:ignore="TextSizeCheck">
 
         <ImageButton
+
+            android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
+            android:importantForAccessibility="no"
             android:src="@drawable/baseline_settings_24"
-            tools:ignore="SpeakableTextPresentCheck"
-            android:importantForAccessibility="no" />
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
         <TextView
+
+            android:id="@+id/result"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="155dp"
@@ -36,6 +41,8 @@
 
     </LinearLayout>
     <LinearLayout
+
+        android:id="@+id/second_child"
         android:layout_width="match_parent"
         android:layout_height="650dp"
         android:layout_gravity="center"
@@ -45,10 +52,14 @@
         android:background="@color/white"
         tools:ignore="VisualLintBounds">
         <LinearLayout
+
+            android:id="@+id/second_1_child"
             android:layout_width="match_parent"
             android:layout_height="90dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            tools:ignore="ExtraText">
             <TextView
+                android:id="@+id/second_1"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:textColor="@color/black"
@@ -61,6 +72,7 @@
                 />
 
             <TextView
+                android:id="@+id/second_2"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:textColor="@color/black"
@@ -71,8 +83,9 @@
                 android:text="@string/c"
                 android:textSize="30sp"
                 />
-                />
+
             <TextView
+                android:id="@+id/second_3"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:textColor="@color/black"
@@ -85,6 +98,7 @@
                 />
 
             <TextView
+                android:id="@+id/second_4"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginEnd="25dp"
@@ -98,10 +112,12 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/second_2_child"
             android:layout_width="match_parent"
             android:layout_height="90dp"
             android:orientation="horizontal">
             <TextView
+                android:id="@+id/second_5"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:textColor="@color/white"
@@ -114,6 +130,7 @@
                 />
 
             <TextView
+                android:id="@+id/second_6"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:textColor="@color/white"
@@ -126,6 +143,7 @@
                 />
 
             <TextView
+                android:id="@+id/second_7"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:textColor="@color/white"
@@ -138,6 +156,7 @@
                 />
 
             <TextView
+                android:id="@+id/second_8"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginEnd="25dp"
@@ -151,6 +170,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/second_3_child"
             android:layout_width="match_parent"
             android:layout_height="90dp"
             android:orientation="horizontal">
@@ -166,6 +186,7 @@
                 android:textSize="30sp"
                 />
             <TextView
+                android:id="@+id/second_9"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:textColor="@color/white"
@@ -177,6 +198,7 @@
                 android:textSize="30sp"
                 />
             <TextView
+                android:id="@+id/second_10"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:textColor="@color/white"
@@ -189,6 +211,7 @@
                 />
 
             <TextView
+                android:id="@+id/second_11"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginEnd="25dp"
@@ -201,10 +224,12 @@
                 tools:ignore="TextContrastCheck" />
         </LinearLayout>
         <LinearLayout
+            android:id="@+id/second_4_child"
             android:layout_width="match_parent"
             android:layout_height="90dp"
             android:orientation="horizontal">
             <TextView
+                android:id="@+id/second_12"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:textColor="@color/white"
@@ -216,6 +241,7 @@
                 android:text="@string/_1"
                 android:textSize="30sp"/>
             <TextView
+                android:id="@+id/second_13"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:textColor="@color/white"
@@ -226,8 +252,9 @@
                 android:textAlignment="center"
                 android:text="@string/_2"
                 android:textSize="30sp"/>
-                />
+
             <TextView
+                android:id="@+id/second_14"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:textColor="@color/white"
@@ -238,9 +265,10 @@
                 android:textAlignment="center"
                 android:text="@string/_3"
                 android:textSize="30sp"/>
-                />
+
 
             <TextView
+                android:id="@+id/second_15"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginEnd="25dp"
@@ -253,11 +281,13 @@
                 tools:ignore="TextContrastCheck" />
         </LinearLayout>
         <LinearLayout
+            android:id="@+id/second_5_child"
             android:layout_width="match_parent"
             android:layout_height="110dp"
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/second_16"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:textColor="@color/white"
@@ -269,6 +299,7 @@
                 android:text="@string/_0"
                 android:textSize="30sp"/>
             <TextView
+                android:id="@+id/second_17"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:textColor="@color/white"
@@ -281,6 +312,7 @@
                 android:textSize="30sp"/>
 
             <TextView
+                android:id="@+id/second_18"
                 android:layout_width="170dp"
                 android:layout_height="80dp"
                 android:layout_marginTop="20dp"
@@ -291,7 +323,7 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="40sp"
-                tools:ignore="TextContrastCheck" />
+                tools:ignore="TextContrastCheck,TextSizeCheck" />
         </LinearLayout>
     </LinearLayout>
 
